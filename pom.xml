@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>TrainBook</groupId>
 	<artifactId>TrainBook</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -77,4 +77,14 @@
 			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
+<distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://43.205.132.1:8081/repository/maven-releases/</url>    --> give accorning to urs
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://43.205.132.1:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
